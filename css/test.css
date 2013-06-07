@@ -1,0 +1,100 @@
+#index{
+	float:left;
+	clear:left;
+	/*width:46px;*/
+	height:448px;
+}
+#nav-question{
+	list-style-type:none;
+	vertical-align:middle;
+} 
+#nav-question li a:link,#nav-question li a{
+	text-decoration:none;
+	font-size:24px;
+	display:block;
+	color:#74A890;
+	width:46px;
+	text-shadow:0 0px 1px #000;
+}
+#nav-question a:hover{
+}
+#nav-question li{
+	background:url('/php_test/img/paneltwocontent.jpg') repeat 0 0 ;
+	box-shadow:1px 1px 3px #666666;
+	border-radius:1px;
+	text-align:center;
+	vertical-align:middle;
+	margin:2px 0;
+}
+.selected {
+	font-weight:bold;
+	font-size:34px !important;
+}
+.tab-content {
+    clear:both;
+    padding:10px;
+}
+.tab-content  .question{
+	font-family:Times, "Times New Roman", Georgia, serif;
+	font-size:25px;
+	display:block;
+	text-shadow:2px 2px 1px grey;
+}
+.tab-content  .option{
+	display:block;
+	float:left;
+	clear:left;
+	margin:28px 0 0px 25px;
+	font-size:20px;
+	text-shadow:0px -1px 0px grey
+}
+#nav-question li:hover{
+	background: rgb(176,212,227); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(176,212,227,1) 0%, rgba(136,186,207,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(176,212,227,1)), color-stop(100%,rgba(136,186,207,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* IE10+ */
+	background: linear-gradient(left, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=1 ); /* IE6-9 */
+	cursor:pointer;
+}
+#nav-question li:first-child{
+	margin-top:6px;
+}
+#content_wrapper{
+	position:relative;
+	clear:both;
+	margin:1% auto;
+	width:711px;
+	height:451px;
+	overflow:hidden;
+}
+#content_box{
+	display:inline-block;
+	float:right;
+	clear:right;
+    width: 555px;
+	background:#FFFFFF;
+	border: 1px solid #DDDDDD;
+    padding:20px 50px;    
+	-moz-border-radius: 5px;
+    border-radius:5px;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	height:365px;
+	margin-bottom:2px;
+}
+#nav{
+	display:inline-block;
+	float:right;
+	clear:right;
+	width:656px;
+	list-style-type:none;
+}
+#nav li{
+	display:inline;
+}
+.button{
+	width:216px !important;
+}

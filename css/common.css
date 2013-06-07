@@ -1,0 +1,91 @@
+html{
+	height:100%;
+	//*overflow:hidden;*/
+}
+body {
+	/*min-height: 100%; height: auto !important; height: 100%;*/
+    background: url('/php_test/img/body_bg.png') repeat 0 0  transparent; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #e5e5e5 0%, #e3eaed 37%, #e5e5e5 99%, #c8d7dc 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(37%,#e3eaed), color-stop(99%,#fe5e5e5), color-stop(100%,#c8d7dc)); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, #e5e5e5 0%,#e3eaed 37%,#e5e5e5 99%,#c8d7dc 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(top, #e5e5e5 0%,#e3eaed 37%,#e5e5e5 99%,#c8d7dc 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(top, #e5e5e5 0%,#e3eaed 37%,#e5e5e5 99%,#c8d7dc 100%); /* IE10+*/ 
+/*	background: linear-gradient(top, #e5e5e5 0%,#e3eaed 37%,#e5e5e5 99%,#c8d7dc 100%); /* W3C */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+}
+#header{
+	height:109px;
+	width:100%;
+	background: rgb(201,222,150); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(201,222,150,1) 0%, rgba(138,182,107,1) 44%, rgba(57,130,53,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,222,150,1)), color-stop(44%,rgba(138,182,107,1)), color-stop(100%,rgba(57,130,53,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); /* IE6-9 */
+}
+input[type=submit],.button {
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 21px;
+	padding: 5px;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:3px;
+	background: #6bba70; /* Old browsers */
+	background: -moz-linear-gradient(top, #6bba70 0%, #6bba70 31%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6bba70), color-stop(31%,#6bba70)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #6bba70 0%,#6bba70 31%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #6bba70 0%,#6bba70 31%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #6bba70 0%,#6bba70 31%); /* IE10+ */
+	background: linear-gradient(top, #6bba70 0%,#6bba70 31%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=0 ); /* IE6-9 */
+	display:inline-block; /* IE is so silly */
+	width: 185px; height: 42px;
+	cursor: pointer;
+}
+input[type=submit]:hover,.button:hover {
+	background: #006e2e; /* Old browsers */
+	background: -moz-linear-gradient(top, #006e2e 0%, #006e2e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006e2e), color-stop(100%,#006e2e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #006e2e 0%,#006e2e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #006e2e 0%,#006e2e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #006e2e 0%,#006e2e 100%); /* IE10+ */
+	background: linear-gradient(top, #006e2e 0%,#006e2e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+}
+#footer-notes {
+	position:fixed;
+	width:100%;
+	bottom:0%;
+	background: none repeat scroll 0 0 #212121;
+    border-top: 1px solid #373737;
+    color: #666666;
+    font-size: 11px;
+    height: 12px;
+    padding: 8px 0;
+    text-shadow: 0 -1px 0 #151515;
+	text-align:center;
+}
+#footer-notes-inner {
+    margin: 0px auto;
+    width: 940px;
+}
+#footer-notes .copyright {
+    float: left;
+    margin: 0;
+}
+#footer-notes a {
+    border-bottom: 1px solid #333333;
+    color: #666666;
+	text-decoration:none;
+}
+#footer-notes a:hover{
+    color:white;
+}
+#footer-notes .credit {
+    float: right;
+    margin: 0;
+}

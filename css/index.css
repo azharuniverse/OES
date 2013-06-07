@@ -1,0 +1,153 @@
+#main{
+	display:block;
+	width:1050px;
+	margin:50px auto;
+	padding:1px;
+}
+#main_right{
+	height:450px;
+	width:430px;
+	display:inline-block;
+	float:left;
+	padding:1px;
+	overflow:hidden;
+}
+#server_reply{
+	margin:-69px 0px 0px 81px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	color:#F00;
+	text-decoration:blink;
+	text-transform:capitalize;
+	text-shadow:1px -1px 1px #FF7575;
+}
+#main_right h1{
+	font-size: 30px; color: #445668;
+	text-align: center;
+	text-shadow: 0px 1px 0px #f2f2f2;
+	margin-bottom:23px;
+}
+#commentForm label {
+	text-align: right; font-size: 16px; color: #445668;margin:11px 5px 0 0;
+	text-transform: uppercase; text-shadow: 0px 1px 0px #f2f2f2;
+	width:70px;
+	display:inline-block;
+}
+#commentForm div.label-wrapper{
+	height:49px;
+}
+#commentForm div.label-wrapper img{
+	margin:0 0 0 0;
+	width:301px;
+	height:39px;
+}
+#commentForm  label.error,label[for="fb"]#fberror{  
+	width:119px;
+	position:relative;
+	overflow:hidden;
+	right:-286px;
+	top:-46px;
+	white-space:nowrap;
+	background:#890000;
+	padding:5px 10px;	
+	font-size:11px;
+	color:#fff;
+	text-shadow:#500 0 1px 0;
+	text-align:left;
+	white-space:nowrap;
+	border:1px solid #500;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0 0 5px #700;
+	-webkit-box-shadow:0 0 5px #700;
+	box-shadow:0 0 5px #700;
+	
+}
+label[for="fb"]#fberror{
+	visibility:hidden;
+}
+#commentForm input.input_box {
+	display:inline-block;
+	width: 260px; height: 25px; padding: 3px 20px 0px 20px; margin: 4px 0 0px 0;
+	background: #5E768D;
+	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; font-size: 16px; color: #f2f2f2; text-shadow: 0px -1px 0px #334f71;
+}
+#commentForm select{
+    height: 25px;  margin: 4px 0 0 0;
+	background: #5E768D;
+	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+	background: -webkit-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* IE10+ */
+	background: linear-gradient(top, #546A7F 0%, #5E768D 20%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#546A7F', endColorstr='#5E768D',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; font-size: 16px; color: #f2f2f2; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71;
+}
+#commentForm select option{
+	background: #5E768D;
+	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+	background: -webkit-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* IE10+ */
+	background: linear-gradient(top, #546A7F 0%, #5E768D 20%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#546A7F', endColorstr='#5E768D',GradientType=0 ); /* IE6-9 */
+}
+#commentForm select option:hover{
+	background:#669;
+}
+	
+#commentForm input::-webkit-input-placeholder  {
+    	color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
+}
+#commentForm input:-moz-placeholder {
+	    color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
+}
+#commentForm input.input_box:focus{
+	background: #728eaa; /* Old browsers */
+	background: -moz-linear-gradient(top, #668099 0%, #728eaa 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#668099), color-stop(20%,#728eaa)); /* webkit */
+	background: -webkit-linear-gradient(top, #668099 0%, #728eaa 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #668099 0%, #728eaa 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #668099 0%, #728eaa 20%); /* IE10+ */
+	background: linear-gradient(top, #668099 0%, #728eaa 20%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668099', endColorstr='#728eaa',GradientType=0 ); /* IE6-9 */
+}
+#commentForm input[type=submit]  {
+	float: right;
+	margin:37px 58px 0 0;
+}	
+#quote{
+	height:450px;
+	width:568px;
+	display:inline-block;
+	float:right;
+	padding:1px;
+	padding-left:40px;
+	overflow:hidden;
+}
+#quote img{
+	float:right;
+	margin-top:-10px;
+}
+#quote p{
+	font: bold 16px/25px "Comic Sans MS", cursive;
+	line-height:140%;
+	text-shadow: 6px 4px 2px #CCC;
+}
+#quote h4{
+	font:italic 13px/20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#2A1F00;
+	text-shadow: 2px 1px 0 #CCC;
+	margin-top:10px;
+	text-indent:30px;
+	white-space:nowrap;
+} 
